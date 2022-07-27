@@ -36,9 +36,11 @@ The Dataset [Housing Prices.csv.csv] looks like this on preprocessing
 # Step-2 -> Building and making the Model Predictive
 
 Steps performed in Model Building:
-1. Scaling the dataset
-2. Creating test and training partitions
-3.    Implementing the Models
+1. Importing the libraries and Transformed Data.
+2. Scaling the dataset
+3. Checking and Removing Multicollinearity.
+4. Creating test and training partitions
+5.    Implementing the Models
       a. Multiple Linear Regression
       b. Random Forest Regression
       c. XGBoost Regression
@@ -47,7 +49,7 @@ Steps performed in Model Building:
 6.    Preparing the Residual plot.
 7.    Predicting Sales Price
 
-Model Prediction.ipynb contains the code for Model Prediction.
+Model Building and Prediction.ipynb contains the code for Model Prediction.
 On Trainig and Testing the data with the three algorithms mentioned, Random Forest appeared as the best fit for the model.
 
 The Residual plots obtained where as follows:
@@ -64,12 +66,14 @@ The Residual plots obtained where as follows:
 ![image](https://user-images.githubusercontent.com/85097320/181289737-dd07a795-bd8b-4c70-88fa-6024d5b06747.png)
 ![image](https://user-images.githubusercontent.com/85097320/181289782-c08c2b03-6019-4664-84f0-cd389faeb1e6.png)
 
+![image](https://user-images.githubusercontent.com/85097320/181352475-4745df98-fbde-4f2a-8e0d-bbd709364260.png)
 
-![image](https://user-images.githubusercontent.com/85097320/181280985-78d54299-98aa-44ae-9630-26830e2e5e00.png)
+
 
 As Random Forest was more accurate, the price prediction was done using the same.
 
-# Result
+# Predicted Result
 
-![image](https://user-images.githubusercontent.com/85097320/181288074-b2f82c6b-78aa-4550-bf77-72946aa3d4b0.png)
+![image](https://user-images.githubusercontent.com/85097320/181352456-2d864aae-799a-475c-af5c-222cae9171f0.png)
+
 
